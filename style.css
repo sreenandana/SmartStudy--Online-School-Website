@@ -1,0 +1,307 @@
+.page-head{
+    color: rgb(49, 84, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search-input{
+    width: 150px;
+    border-radius: 10px;
+    font-size: small;
+    margin-left: 20px;
+}
+.nav-item{
+    padding-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-icons{
+    padding-right: 10px;
+}
+.navbar-nav a {
+    text-decoration: none;
+    color: rgb(86, 81, 81);
+    padding: 6px 13px;
+    transition: color 0.5s ease;
+    font-size: 15px;
+}
+  /* Hover effect */
+.navbar-nav a:hover {
+    color : rgb(124, 208, 212); /* Change text color to blue on hover */
+}
+.navbar-nav a:active{
+    color: rgb(124, 208, 212); /* Change text color to blue on hover */
+}
+.dropdown-menu a:active{
+    background-color: blue;
+}
+.navbar-toggler {
+    border: none; 
+    outline: none;
+}
+/* home */
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width: 10%;
+    height: 20%;
+}
+.carousel-home{
+    border-radius: 20px;
+    background-image: url(images/banner-bg.jpg);
+}
+.home-text{
+    font-family: "Jost", sans-serif;
+    font-size: 3rem;
+    margin-top: 10%;
+}
+.banner_img {
+    max-width: 100%;
+    height: auto;
+}
+.banner-btn{
+    background-color: white;
+    color: #7a6ad8;
+    border-radius: 30px;
+}
+.container-service{
+    margin-top: 20px;
+}
+.service-item{
+    background-color: darkgray;
+}
+.icon{
+    margin-top: 10px;
+    margin-left: 220px;
+}
+.about-us{
+    margin-top: 20px;
+
+}
+.accordion-item{
+    background-color: #7a6ad8;
+    border-radius: 40px;
+}
+.section-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    background-color: rgb(224, 223, 223);
+    margin-bottom: 10px;
+}
+.heading1{
+    color: #7a6ad8;
+}
+.btn{
+    border-radius: 40px;
+    margin-left: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.courses{
+    margin-top: 30px;
+}
+.card-course{
+    text-align: center;
+    border-radius: 40px;
+    background-color: rgb(224, 223, 223);
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.thumb{
+    margin-top: 20px;
+}
+.banner-btn{
+    width: 50%;
+    height: 10%;
+}
+.carg-img{
+    margin-top: 10px;
+}
+.about-details{
+    margin-top: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius:40px;
+    background-image: url(images/banner-bg.jpg);
+    height: 200px;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+}
+.team{
+    margin-top: 20px;
+    text-align: center;
+}
+.image-move-continuous {
+    animation: moveTopToBottom 3s ease-in-out infinite;
+}
+      
+    @keyframes moveTopToBottom {
+    0% {
+        transform: translateY(-10px); /* Start above the original position */
+    }
+    50% {
+        transform: translateY(10px); /* Move down to 10px below the original position */
+    }
+    100% {
+        transform: translateY(-10px); /* Return back to the top position */
+    }
+    }
+.main-content{
+    border-radius: 20px;
+    background-color: rgb(224, 223, 223);
+}
+.testimonials{
+    margin-top: 20px;
+    background-color: #7a6ad8;
+}
+.carousel-cust{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.item{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.category{
+   color: white;
+}
+.event{
+    margin-top: 20px;
+}
+.event1{
+    width: 1200px;
+    margin-top: 10px;
+    background-color: beige;
+}
+.event3{
+    margin-left: 100px;
+    width: 1200px;
+    margin-top: 10px;
+    background-color: beige;
+}
+.btn1{
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 40px;
+    background-color: white;
+    color: #7a6ad8;
+    margin-bottom: 10px;
+}
+.contact-us{
+    margin-top: 20px;
+}
+.special-offer{
+    text-align: center;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+}
+.offer{
+    width: 100px;
+    text-align: center;
+    border-radius: 80px;
+    background-image: url(images/banner-bg.jpg);
+    color: white;
+}
+.contact-us-content{
+    margin-top: 20px;
+    background-image: url(images/banner-bg.jpg);
+    color: white;   
+}
+.copyright{
+    margin-top: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius:40px;
+    background-image: url(images/banner-bg.jpg);
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+
+.testimonial-container {
+    display: flex;
+    margin-top: 20px;
+    max-width: 1400px;
+    background: #f8f6ff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-container {
+    width: 90%;
+    background: #7e6fd6;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial-text {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.testimonial-author {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.author-role {
+    font-size: 0.9em;
+    color: #ddd;
+}
+
+.author-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 3px solid white;
+}
+
+.testimonial-content {
+    width: 40%;
+    padding-left: 20px;
+}
+
+.testimonial-heading {
+    color: #6d57c7;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.testimonial-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.testimonial-description {
+    margin-top: 10px;
+    color: #666;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #7e6fd6 !important;
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
