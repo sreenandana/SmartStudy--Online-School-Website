@@ -104,7 +104,32 @@
     font-family: 'Times New Roman', Times, serif;
 }
 .thumb{
-    margin-top: 20px;
+    margin-top: 10px;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.image-container img {
+    width: 100%;
+    display: block;
+}
+.course-btn {
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: left 0.3s ease-in-out;
+    cursor: pointer;
+}
+.image-container:hover .course-btn {
+    left: 0;
 }
 .banner-btn{
     width: 50%;
