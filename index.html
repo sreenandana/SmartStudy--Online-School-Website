@@ -11,7 +11,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -470,6 +470,30 @@
               </div>
           </div>
 
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      
+          <script>
+            var swiper = new Swiper(".Swiper-event", {
+              loop: true,
+              autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              breakpoints: {
+                768: {  // Tablets
+                  slidesPerView: 1,
+                },
+                480: {  // Mobile
+                  slidesPerView: 3,
+                }
+              }
+            });
+          </script>
+
           <!-- Swiper Navigation -->
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
@@ -550,7 +574,7 @@
                 </div>
               </div>
             </div>  
-            <div class="event3" >  
+            <div class="event1" >  
               <div class="row p-4">
                 <div class="col-lg-3">
                   <div class="footer-menu">
@@ -602,7 +626,7 @@
           </div>
           <div class="col-lg-6">
             <div class="contact-us-content">
-              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
+              <form action="" method="post" class="form" data-aos="fade-up" data-aos-delay="600">
                 <div class="row gy-4">
                   <div class="col-md-6">
                     <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
